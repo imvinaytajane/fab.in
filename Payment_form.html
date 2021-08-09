@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
     <style>
-        body{background-image: url(/img/cover.jpg);
+        /* body{background-image: url(/img/cover.jpg);
         background-size: cover;
     background-attachment: fixed;}
         h1 {
@@ -28,25 +28,75 @@
         #button {
             font-size: large;
             margin-left: 45%;
+        } */
+        *{ box-sizing: border-box;}
+
+        body{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        margin: 15px 30px;
+        padding: 8px;}
+
+        .cointainer{ 
+            background-color: #f2f2f2;
+            padding: 5px 20px 15px 20px;
+            border: 1px solid gray;
+            border-radius: 15px;
         }
+
+        input[type="text"],
+        input[tppe="email"],
+        input[type="number"]
+        input[type="password"],
+        input[tppe="date"],
+        select,
+        textarea{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        fieldset{
+            background-color: #ffff;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"]{
+            background-color: rgb(17, 173, 17);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover{background-color: rgb(5, 122, 5);}
+
+        .main_heading { text-align: center;}
+
+
+
     </style>
 </head>
 
 <body>
+    <div class="cointainer">
     <form action="index.html">
         <button><a href="index.html">Home</a></button>
 
-        <h1>Payment Form</h1>
+        <h1 class="main_heading">Payment Form</h1>
+        <hr>
         <p><em>Required fields by *</em></p>
         <h2>Contact Information</h2>
-        <p>Name*: <input type="text" name="name" required></p>
+        <p>Name*: <input type="text" name="name" placeholder="Enter Your Full Name" required></p>
         <fieldset>
             <legend>Gender</legend>
             <p>Male<input type="radio" name="gender">Female<input type="radio" name="gender"></p>
         </fieldset>
-        <p>Adress:<textarea name="adress" id="adress" cols="80" rows="10"></textarea></p>
-        <p>E-mail*: <input type="email" name="email" id="email" required></p>
-        <p>Pincode:<input type="number" name="pincode" id="pincode"></p>
+        <p>Adress:<textarea name="adress" id="adress" placeholder="Enter Your Adress" cols="80" rows="10"></textarea></p>
+        <p>E-mail*: <input type="email" name="email" id="email" placeholder="name@gmail.com" required></p>
+        <p>Pincode:<input type="number" name="pincode" id="pincode" placeholder="123456" ></p>
         <h2>Payment Information*</h2>
         <p>Card Type
             <select name="card_type" id="card_type" required>
@@ -56,11 +106,12 @@
                 <option value="master_card">MasterCard</option>
             </select>
         </p>
-        <p>Card number: <input type="number" name="card_number" id="card_number" required></p>
-        <p>Expiration Date: <input type="date" name="exp_date" id="exp_date" required></p>
-        <p>CVV <input type="password" name="cvv" id="cvv" required></p>
+        <p>Card number: <input type="number" name="card_number" id="card_number" placeholder="1111-2222-3333-4444" required></p>
+        <p>Expiration Date: <input type="date" name="exp_date" id="exp_date" placeholder="01-Jan-2000" required></p>
+        <p>CVV <input type="password" name="cvv" id="cvv" placeholder="321" required></p>
         <input type="submit" value="Pay Now" id="button">
     </form>
+</div>
 </body>
 
 </html>
