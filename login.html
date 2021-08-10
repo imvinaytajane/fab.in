@@ -7,37 +7,51 @@
             text-align: center;
             background-image:url(img/background.jpg);
             background-attachment: fixed;
+            margin: 15px;
         }
 
         h1 {
-            font-size: 2em;
             color: white;
+            font-size: 2em;
+            text-shadow: 3px 3px black;
         }
 
-        section {
-            margin: 15% 35%;
-            padding: 50px;
-            border: solid black 4px;
-            min-width: 150px;
+        .cointainer {
+            margin: auto;
+            padding: 15px 0px;
             border-radius: 20px;
-            background-color: rgba(17, 124, 143, 0.925);
+            background-color: #3d3d3daf;
         }
+        input[type="text"],
+        input[type="password"]{
+            width: 80%;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            background-color: rgb(37, 201, 37);
+            color: white;
+            padding:15px 35px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        input[type="submit"]:hover{background-color: rgb(17, 141, 17);}
 
-        a {
-            color:lightgoldenrodyellow;
-        }
+        a{color: white;}
     </style>
 </head>
 
 <body>
-    <section>
+    <section class="cointainer">
         <h1>Login Here</h1>
         <form action="cred.html" method="POST">
             <input type="text" name="un" placeholder="Enter User-Name">
             <br><br>
 
             <input type="password" name="pass" placeholder="Enter Password" required>
-            <br>
+            <br><br>
             <a href="#">Forgot Password</a>
             <br><br>
 
