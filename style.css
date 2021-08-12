@@ -1,9 +1,6 @@
 *{margin: 0px;
 padding: 0px;
 }
-body {background-image: url(img/cover2.jpg);
-background-repeat: no-repeat;
-background-size: cover;}
 
 header {background-color:rgb(17, 124, 143);
 padding: 40px;}
@@ -14,32 +11,7 @@ font-size: 40px;
 text-shadow: 3px 3px 2px black;
 color: white;}
 
-nav {background-color:#333;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-nav ul{  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content:center;
-  flex-wrap:wrap;
-}
 
-nav ul li{padding:8px;
-  margin: 2px;
-
-}
-
-nav ul li a{text-decoration: none;
-  background-color: black;
-  color: white;
-  padding: 8px;
-  border-radius: 5px;
-}
 .Group {
 width: 100%;
   }
-  li a:hover{background-color: coral;}
-  footer{text-align: center;
-background-color: gray;}
