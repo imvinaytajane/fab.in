@@ -2,6 +2,8 @@ nav {background-color:#333;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    position: sticky;
+    top: 0px;
 }
 nav ul{  display: flex;
   flex-direction: row;
