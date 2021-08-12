@@ -11,6 +11,12 @@ font-size: 40px;
 text-shadow: 3px 3px 2px black;
 color: white;}
 
+nav{padding: 15px;}
+nav ul{
+  justify-content:center;
+}
+nav ul li{margin: 2px;}
+
 
 .Group {
 width: 100%;
