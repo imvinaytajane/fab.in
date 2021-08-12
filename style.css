@@ -34,4 +34,12 @@ border-radius: 15px;
   padding: 10px;
   margin: 9px;
   font-size:1.3em;
-  border-radius: 5px;}
+  border-radius: 5px;
+text-align: center;}
+  .agreement{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 0px;
+
+  }
