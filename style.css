@@ -19,5 +19,19 @@ nav ul li{margin: 2px;}
 
 
 .Group {
-width: 100%;
+width: 80%;
+display: block;
+margin: auto;
+margin-top: 5px;
+border-radius: 15px;
   }
+#about_us h1{text-align: center;
+  
+}
+
+.about_us{
+  background-color: rgba(154, 230, 255, 0.753);
+  padding: 10px;
+  margin: 9px;
+  font-size:1.3em;
+  border-radius: 5px;}
