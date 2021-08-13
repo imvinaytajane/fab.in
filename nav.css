@@ -1,4 +1,4 @@
-nav {background-color:#36454F;
+nav {background-color:		#36454F;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -21,6 +21,8 @@ nav ul li a{text-decoration: none;
   border-radius: 5px;
 }
 
-li a:hover{background-color: coral;}
+li a:hover{background-color: coral;
+  
+}
 footer{text-align: center;
 background-color: gray;}
