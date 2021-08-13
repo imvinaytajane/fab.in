@@ -2,14 +2,18 @@
 padding: 0px;
 }
 
-header {background-color:rgb(17, 124, 143);
+body{background-color: #333;
+  color: white;
+}
+
+header {background-color:#099FFF;
 padding: 40px;}
 
 header h1 {text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 40px;
 text-shadow: 3px 3px 2px black;
-color: white;}
+color: #FAF9F6 ;}
 
 nav{padding: 15px;}
 nav ul{
@@ -30,12 +34,15 @@ border-radius: 15px;
 }
 
 .about_us{
-  background-color: rgba(154, 230, 255, 0.753);
+  background-color: rgba(0, 0, 0, 0.397);
   padding: 10px;
-  margin: 9px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size:1.3em;
   border-radius: 5px;
 text-align: center;}
+
+.about_us a{color: skyblue;}
   .agreement{
     width: 50%;
     display: block;
