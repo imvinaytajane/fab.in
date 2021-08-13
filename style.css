@@ -6,8 +6,9 @@ body{background-color: #333;
   color: white;
 }
 
-header {background-color:#099FFF;
-padding: 40px;}
+header {
+  background-image: linear-gradient(to bottom right, rgb(38, 255, 255), rgb(0, 250, 54));
+  padding: 40px;}
 
 header h1 {text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
