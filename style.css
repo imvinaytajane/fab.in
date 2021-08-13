@@ -38,8 +38,9 @@ border-radius: 15px;
   padding: 10px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 10px;
   font-size:1.3em;
-  border-radius: 5px;
+  border-radius: 15px;
 text-align: center;}
 
 .about_us a{color: skyblue;}
@@ -47,6 +48,6 @@ text-align: center;}
     width: 50%;
     display: block;
     margin: auto;
-    padding: 0px;
+    padding: 10px;
 
   }
