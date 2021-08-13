@@ -37,18 +37,21 @@ border-radius: 15px;
 .about_us{
   background-color: rgba(0, 0, 0, 0.397);
   padding: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 10px;
   font-size:1.3em;
   border-radius: 15px;
 text-align: center;}
 
-.about_us a{color: skyblue;}
+.about_us a{
+  color: skyblue;
+  font-size: 16px;
+}
   .agreement{
-    width: 50%;
+    width: 80%;
     display: block;
     margin: auto;
-    padding: 10px;
+    padding:10px;
 
   }
