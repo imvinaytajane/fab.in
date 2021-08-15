@@ -74,6 +74,7 @@ text-align: center;}
   }
   .activity img{width: 50%;
     margin-top: 5px;
+    padding-top: 2px;
     display: block;
     margin: auto;
     border-radius: 5px;
