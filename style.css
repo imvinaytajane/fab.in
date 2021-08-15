@@ -7,14 +7,19 @@ body{background-color: #333;
 }
 
 header {
-  background-image: linear-gradient(to bottom right, rgb(38, 255, 255), rgb(0, 250, 54));
+  background-image: linear-gradient(to bottom right,
+   /* rgb(38, 255, 255), rgb(0, 250, 54) */
+   orange,white,green
+   );
   padding: 40px;}
 
 header h1 {text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 40px;
 text-shadow: 3px 3px 2px black;
-color: #FAF9F6 ;}
+color:rgb(91, 154, 236)
+ /* #FAF9F6 ; */
+}
 
 nav{padding: 15px;}
 nav ul{
