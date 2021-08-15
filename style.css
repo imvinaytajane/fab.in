@@ -57,3 +57,18 @@ text-align: center;}
     padding:10px;
 
   }
+
+  #activity h1{text-align: center;}
+  .activity{
+    background-color: rgba(0, 0, 0, 0.397);
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  }
+  .activity img{width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+  }
