@@ -70,4 +70,38 @@ border: 6px double white;
       .agreement{ width:90%; }
       
     }
+
+    .tall{
+      background-color: rgba(0, 0, 0, 0.397);
+      padding: 10px;
+      padding-bottom: 15px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size:1.3em;
+      border-radius: 15px;
+    text-align: center;
+
+    }
+    .tallpara {
+      padding:2% 25%;
+      text-align: left;
+    }
+    @media screen and (max-width:480px) {
+      .tallpara{padding: 1% 2%; }
+      
+    }
+ 
+    .tall iframe{margin: 5px;
+    }
+    .tall a{
+         background-color: rgb(27, 188, 252);
+      padding: 5px;
+      color: black;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
   
