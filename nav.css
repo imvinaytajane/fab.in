@@ -1,10 +1,12 @@
+
+nav{padding: 15px;}
 nav ul li a{
   background-color: black;
   color: white;
   border-radius: 5px;
-  margin-left:1px ;
-  margin-right: 1px;
+  margin: 1px;
 }
+nav ul li{margin: 2px;}
 
 li a:hover{background-color: coral;
   
