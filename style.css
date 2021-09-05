@@ -2,6 +2,28 @@
 padding: 0px;
 }
 
+/* Nav Adjustments */
+
+nav{padding: 15px;}
+nav ul li a{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 1px;
+}
+nav ul li{margin: 2px;}
+
+li a:hover{background-color: coral;
+ 
+}
+
+nav ul{
+  justify-content:center;
+}
+
+footer{text-align: center;
+background-color: gray;}
+
 body{
   background-color: #333;
   color: white;
@@ -17,11 +39,6 @@ font-size: 40px;
 text-shadow: 3px 3px 2px black;
 color:#FAF9F6;
 }
-nav ul{
-  justify-content:center;
-}
-
-
 
 .Group {
 width: 80%;
