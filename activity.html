@@ -1,131 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activities</title>
- <!-- starting of bootstrap link -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
- <!-- ending of bootstrap link   -->
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="nav.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <style>
-        body{
-          background-color: #333;
-          margin: 0px;
-  color: white;
-}
-       
-  #activity h1{text-align: center;}
-  .activity{
-    background-color: rgba(0, 0, 0, 0.397);
-  padding: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10px;
-  border-radius: 15px;
-  }
-  .activity img{width: 50%;
-    margin-top: 5px;
-    padding-top: 2px;
-    display: block;
-    margin: auto;
-    border-radius: 5px;
-  }
-  @media screen and (max-width:480px) {
-    .activity img{ width:90%; }
-    
-  }
-  .activity p{margin-top: 5px;}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activities</title>
+  <!-- starting of bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- ending of bootstrap link   -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      background-color: #333;
+      margin: 0px;
+      color: white;
+    }
 
-    </style>
+    #activity h1 {
+      text-align: center;
+    }
+
+    .activity {
+      background-color: rgba(0, 0, 0, 0.397);
+      padding: 10px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 10px;
+      border-radius: 15px;
+    }
+
+    .activity img {
+      width: 50%;
+      margin-top: 5px;
+      padding-top: 2px;
+      display: block;
+      margin: auto;
+      border-radius: 5px;
+    }
+
+    @media screen and (max-width:480px) {
+      .activity img {
+        width: 90%;
+      }
+
+    }
+
+    .activity p {
+      margin-top: 5px;
+    }
+  </style>
 </head>
+
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand ms-2" href="#">Fab47</a>
-    
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarTogglerDemo03">
-        <ul class="navbar-nav text-center mr-auto mt-2 mt-lg-0">
-    <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="index.html#about_us">About Us</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link active" href="#">Activities</a>
-    </li>
-          <li class="nav-item">
-    <a class="nav-link" href="commercial.html">Commercial</a>
-    </li>
-  </ul>
-  </div>
-</div>
-</nav>
-    
-    <div id="activity">
-        <h1>Activities</h1>
-        <div class="activity">
-          <h3 class="date">11 <sup>th</sup>September 2021</h3>
-          <p>Introducing THE WINGS CAFE by FAB47 (2013-20 Batch)<br />
-Recently FAB47 has signed the contract of professional  mural of one cafeteria in front of Agragrami school, pipri meghe, Wardha. After 6 days of hardwork by whole group we executed the cafeteria named THE WINGS CAFE. We conscientiously did our work and present it ininsignificant time.
-          </p>
-         <img src="img/activity_6.jpg" alt="" />
-        </div>
-        <div class="activity">
-          <p>To spectacle the promise and to emphasize the glory of sevashram to all our adored visitant.<br />
-            FAB47 (2013-20) pictured a wall painting at SHIVAJI bhau's SEVASHRAM.
-          </p>
-          <img src="img/activity_5.jpg" alt="" />
-        </div>
-        <div class="activity">
-            <h3 class="date">15<sup>th</sup>August 2021</h3>
-            <p>In the era of technology and development the "Concrete Jungle" is expanding and mother earth is loosing
-                it's soothing assets such as green plants trees. As a debtor to mother earth we need to pay the part of
-                our debt and to do so FAB 47 ALLIANCE have decided to provide an aid to the environment and help it heal
-                by performing a Plantation on the the face of independence day (15th August 2021) at Matoshri
-                Vriddhashram Sindhi meghe Wardha.</p>
-            <img src="img/activity.jpg" alt="">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand ms-2" href="#">Fab47</a>
 
-        </div>
-        <div class="activity">
-          <h3 class="date">17<sup>th</sup> January 2021</h3>
-          <p>In this world of Miracles, one feels blessed and fortunate when he gets a baby, and for a child or anyone the most important ones are his parents. Unfortunately there some kids who are not blessed to have their parents with them and are left away from the world. For such kids, Shivaji Choudhary bhau have taken an initiative to run an Ashram to help them, educate them and making their lives better. In accordance to that FAB47 ALLIANCE have decided to donate bansuris to sewashram, to nuture and cultivate their love for music.</p>
-          <img src="img/activity_3.jpg" alt="" />
-          
-        </div>
-        <div class="activity">
-          <h3 class="date">24<sup>th</sup> October 2020</h3>
-          <p>In this world of Miracles, one feels blessed and fortunate when he gets a baby, and for a child or anyone the most important ones are his parents. Unfortunately there some kids who are not blessed to have their parents with them and are left away from the world. For such kids, Shivaji Choudhary bhau have taken an initiative to run an Ashram to help them, educate them and making their lives better. In accordance to that FAB47 ALLIANCE have decided to give and aid to the Ashram and donate one of the basic needs of human, that is clothes to wear. So we have collected the clothes from our batch mates to be donated.</p>
-          <img src="img/activity_2.jpg" alt="" />
-          <!-- <img src="img/activity_2.2.jpg" alt="" /> -->
-          
-        </div>
-        <div class="activity">
-          <h3 class="date">23<sup>rd</sup> September 2020</h3>
-          <p>THE PANDEMIC NOW HAS AFFECTED MANY OF THE THINGS ALL OVER THE WORLD ONE OF SUCH THING IS EDUCATION THE SITUATION IS SO HARSH FOR SOME OF THE STUDENTS THAT THEY AREN'T GETTING THE APPROPIATE BOOKS
-
-TO LEARN AND LOOKING INTO THIS NAVODAYA ALUMNI WELFARE ASSOCIATION (NAWA) HAS LAUNCHED A
-
-PROGRAMME TO PROVIDE THE RIGHT BOOKS TO NEEDFUL STUDENTS UNDER
-
-WHICH OUR FAB47 ALLINACE IS COOPERATING RESPONDING TO THE
-
-CALL WE CONTRIBUTED UPTO 100 BOOKS FROM ALMOST ALL CANDIDATE OF
-
-OUR BATCH</p>
-<img src="img/activity_1.jpg" alt="donating_books" />
-          
-        </div>
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarTogglerDemo03">
+      <ul class="navbar-nav text-center mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Activities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="commercial.html">Commercial</a>
+        </li>
+      </ul>
     </div>
-    
+    </div>
+  </nav>
+
+  <div id="activity">
+    <h1>Activities</h1>
+    <div class="activity">
+      <h3 class="date">11 <sup>th</sup>September 2021</h3>
+      <p>Introducing THE WINGS CAFE by FAB47 (2013-20 Batch)<br />
+        Recently FAB47 has signed the contract of professional mural of one cafeteria in front of Agragrami school,
+        pipri meghe, Wardha. After 6 days of hardwork by whole group we executed the cafeteria named THE WINGS CAFE. We
+        conscientiously did our work and present it ininsignificant time.
+      </p>
+      <img src="img/activity_6.jpg" alt="" />
+    </div>
+    <div class="activity">
+      <p>To spectacle the promise and to emphasize the glory of sevashram to all our adored visitant.<br />
+        FAB47 (2013-20) pictured a wall painting at SHIVAJI bhau's SEVASHRAM.
+      </p>
+      <img src="img/activity_5.jpg" alt="" />
+    </div>
+    <div class="activity">
+      <h3 class="date">15<sup>th</sup>August 2021</h3>
+      <p>In the era of technology and development the "Concrete Jungle" is expanding and mother earth is loosing
+        it's soothing assets such as green plants trees. As a debtor to mother earth we need to pay the part of
+        our debt and to do so FAB 47 ALLIANCE have decided to provide an aid to the environment and help it heal
+        by performing a Plantation on the the face of independence day (15th August 2021) at Matoshri
+        Vriddhashram Sindhi meghe Wardha.</p>
+      <img src="img/activity.jpg" alt="">
+
+    </div>
+    <div class="activity">
+      <h3 class="date">17<sup>th</sup> January 2021</h3>
+      <p>In this world of Miracles, one feels blessed and fortunate when he gets a baby, and for a child or anyone the
+        most important ones are his parents. Unfortunately there some kids who are not blessed to have their parents
+        with them and are left away from the world. For such kids, Shivaji Choudhary bhau have taken an initiative to
+        run an Ashram to help them, educate them and making their lives better. In accordance to that FAB47 ALLIANCE
+        have decided to donate bansuris to sewashram, to nuture and cultivate their love for music.</p>
+      <img src="img/activity_3.jpg" alt="" />
+
+    </div>
+    <div class="activity">
+      <h3 class="date">24<sup>th</sup> October 2020</h3>
+      <p>In this world of Miracles, one feels blessed and fortunate when he gets a baby, and for a child or anyone the
+        most important ones are his parents. Unfortunately there some kids who are not blessed to have their parents
+        with them and are left away from the world. For such kids, Shivaji Choudhary bhau have taken an initiative to
+        run an Ashram to help them, educate them and making their lives better. In accordance to that FAB47 ALLIANCE
+        have decided to give and aid to the Ashram and donate one of the basic needs of human, that is clothes to wear.
+        So we have collected the clothes from our batch mates to be donated.</p>
+      <img src="img/activity_2.jpg" alt="" />
+      <!-- <img src="img/activity_2.2.jpg" alt="" /> -->
+
+    </div>
+    <div class="activity">
+      <h3 class="date">23<sup>rd</sup> September 2020</h3>
+      <p>THE PANDEMIC NOW HAS AFFECTED MANY OF THE THINGS ALL OVER THE WORLD ONE OF SUCH THING IS EDUCATION THE
+        SITUATION IS SO HARSH FOR SOME OF THE STUDENTS THAT THEY AREN'T GETTING THE APPROPIATE BOOKS
+
+        TO LEARN AND LOOKING INTO THIS NAVODAYA ALUMNI WELFARE ASSOCIATION (NAWA) HAS LAUNCHED A
+
+        PROGRAMME TO PROVIDE THE RIGHT BOOKS TO NEEDFUL STUDENTS UNDER
+
+        WHICH OUR FAB47 ALLINACE IS COOPERATING RESPONDING TO THE
+
+        CALL WE CONTRIBUTED UPTO 100 BOOKS FROM ALMOST ALL CANDIDATE OF
+
+        OUR BATCH</p>
+      <img src="img/activity_1.jpg" alt="donating_books" />
+
+    </div>
+  </div>
+
 </body>
+
 </html>

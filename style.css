@@ -57,9 +57,7 @@ border: 6px double white;
     padding:10px;
 
   }
-  #about_us h1{text-align: center;
   
-  }
   
   .about_us{
     background-color: rgba(0, 0, 0, 0.397);
@@ -67,6 +65,7 @@ border: 6px double white;
     padding-bottom: 15px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size:1.3em;
     border-radius: 15px;
